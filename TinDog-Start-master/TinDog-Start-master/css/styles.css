@@ -1,0 +1,174 @@
+ h1{
+  color: white;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: cursive;
+  font-weight: bold;
+}
+h3{
+  font-family: cursive;
+  font-size:1.5rem;
+  font-weight: bold;
+}
+p{
+  font-family: 'Times New Roman', Times, serif;
+  color: gray;
+  font-size: 1rem;
+}
+body{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+                   /*tittle part*/
+
+
+
+#title{
+  background-color: #ff4c68;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.dog{
+  width: 20%;
+    transform: rotate(25deg);
+   position: absolute;
+   right: 30%;
+ margin-top: 10px;
+  }
+  
+
+
+       /*features*/
+
+
+#features{
+  background-color: white;
+  padding: 7% 15%;
+  text-align: center;
+ position: relative;
+ z-index: 1;
+}
+.features-box{
+  padding:100px ;
+  text-align: center;
+  padding:5%;
+ }
+ .icon{
+   width: 40%;
+   color:#fe8172;
+   margin-bottom: 1rem;
+ }
+ .icon:hover{
+   color:#ff4c68;
+ }
+
+
+        /*testimonials*/
+
+
+
+#testimonials{
+  background-color: #fe8172;
+  text-align: center;
+  color: #fff;
+}
+
+.testimonial-image{
+  margin: 10px;
+  border-radius: 100%;
+  width: 20%;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+#press{
+  background-color: #fe8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+
+       /*navbars*/
+
+
+navbar{
+  padding:0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: cursive;
+  font-size: 1.5rem;
+  font-weight: lighter; 
+}
+.nav-item{
+  padding:0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: cursive;
+  font-weight: lighter;
+  color: gray;
+}
+.navbar-button{
+  margin:5% 3% 5% 0;
+}
+
+         /*press*/
+
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+                 
+
+            /*pricing part*/
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-colums{
+  padding: 3% 2%;
+}
+  
+       /* media quiery*/
+
+
+@media(max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .dog{
+    position: static;
+    transform: rotate(0);
+width: 50%;
+  }
+}
+
+     /*call to action*/
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+ padding: 7% 15%;
+ font-size: 5rem;
+}
+.CTA-heading{ 
+  color: white;
+  font-size:3.5rem ;
+  line-height: 1.5;
+}
+
+    /*footer*/
+
+#footer{
+  padding: 5% ;
+  background-color: #fff;
+  text-align: center;
+}
+
